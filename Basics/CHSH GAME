@@ -1,1 +1,106 @@
+CHSH Game – Complete Notes & Analysis
+
+This folder contains my complete notes and code on the **CHSH Game**, as part of my work through IBM’s [Basics of Quantum Information](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information) course.
+
+The CHSH game is a foundational concept in quantum information theory, used to demonstrate quantum nonlocality and violations of Bell inequalities using entangled states. It plays a central role in understanding how quantum strategies outperform classical strategies.
+
+
+## 📘 Overview
+
+### 1. Introduction
+
+- Named after **Clauser, Horne, Shimony, Holt (1969)**.
+- A nonlocal game showing the measurable advantage of **quantum entanglement**.
+- Used as a concrete test of **Bell’s theorem**.
+
+
+
+### 2. Nonlocal Games – General Structure
+
+- **Players**: Alice and Bob, no communication during the game.
+- **Referee**: Sends questions `x`, `y` ∈ {0,1} to Alice and Bob.
+- **Answers**: Alice gives `a`, Bob gives `b` ∈ {0,1}.
+- **Winning Rule**: Players win if `a ⊕ b = x ∧ y`.
+
+### 3. CHSH Game Specification
+
+- **Inputs/Outputs**: x, y, a, b ∈ {0,1}
+- **Question distribution**: Uniform across (x, y)
+- **Winning condition**:
+  - (0,0), (0,1), (1,0): win if `a = b`
+  - (1,1): win if `a ≠ b`
+
+## 🧠 Classical Strategy
+
+- **Deterministic limit**: Any classical strategy can win at most 3 out of 4 question pairs.
+- **Max classical win probability**: **75%**
+- **Probabilistic strategies**: No improvement; average ≤ deterministic.
+
+## ⚛ Quantum Strategy
+
+### Shared Entangled State
+- Alice and Bob share the **Bell state**:
+|φ⁺⟩ = (|00⟩ + |11⟩) / √2
+
+### Operations
+- **Alice applies**:
+- `U₀` if x=0
+- `U_π/4` if x=1
+
+- **Bob applies**:
+- `U_π/8` if y=0
+- `U_−π/8` if y=1
+
+## 📊 Probability Calculations
+
+For each (x, y) pair, the strategy yields a **win probability** of:
+
+- (0,0): Pr(a = b) = (2 + √2) / 4
+- (0,1): Pr(a = b) = (2 + √2) / 4
+- (1,0): Pr(a = b) = (2 + √2) / 4
+- (1,1): Pr(a ≠ b) = (2 + √2) / 4
+
+### ✅ Final Result
+
+- **Quantum win probability**: **~85%**
+- **Classical limit**: **75%**
+- **Quantum advantage**: **10%**
+
+This matches the **Tsirelson bound**, the theoretical maximum quantum value.
+
+
+## 🔍 Geometric Interpretation
+
+- Winning probability governed by:
+Pr(a = b) = cos²(α − β)
+Pr(a ≠ b) = sin²(α − β)
+
+- **Alice’s measurement angles**: 0, π/4
+- **Bob’s measurement angles**: π/8, −π/8
+
+Optimal angles maximize quantum correlation for winning conditions.
+
+---
+
+## 🌍 Physical Significance
+
+- **Demonstrates**: Incompatibility of quantum mechanics with local hidden variable theories.
+- **Supports**: Bell’s theorem with experimental setups.
+- **Recognized in Nobel Prize 2022**: Clauser, Aspect, Zeilinger for their work on Bell test experiments.
+
+---
+
+## 📁 Files in This Folder
+
+- `CHSH_notes.md` or `.pdf` – This README-formatted explanation
+- `chsh_simulation.py` – Python code to simulate and compare classical vs. quantum strategies (optional)
+
+---
+
+## 🧑‍💻 Author
+
+- Written as part of my studies in the IBM Quantum **Basics of Quantum Information** course.
+- I’m currently 18 and exploring quantum computing with long-term goals in quantum research and systems.
+
+---
 
