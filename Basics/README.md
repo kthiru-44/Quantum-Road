@@ -2,7 +2,7 @@ IBM Basics of Quantum Information
 
 ## 🎓 Course Structure
 
-Complete the course which  covers core foundations in the following order:
+Completed the course which  covers core foundations in the following order:
 
 1. **Single Systems**
    - Mathematical formalism: quantum state vectors, normalization, unit vectors in ℂⁿ  
