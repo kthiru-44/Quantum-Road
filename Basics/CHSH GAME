@@ -88,19 +88,3 @@ Optimal angles maximize quantum correlation for winning conditions.
 - **Supports**: Bell’s theorem with experimental setups.
 - **Recognized in Nobel Prize 2022**: Clauser, Aspect, Zeilinger for their work on Bell test experiments.
 
----
-
-## 📁 Files in This Folder
-
-- `CHSH_notes.md` or `.pdf` – This README-formatted explanation
-- `chsh_simulation.py` – Python code to simulate and compare classical vs. quantum strategies (optional)
-
----
-
-## 🧑‍💻 Author
-
-- Written as part of my studies in the IBM Quantum **Basics of Quantum Information** course.
-- I’m currently 18 and exploring quantum computing with long-term goals in quantum research and systems.
-
----
-
