@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/QuantumRoad.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/chsh-game (2).ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/circuits.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/classical-information (1).ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/classical-information.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/inner-products-and-projections.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/limitations-on-quantum-information.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/quantum-information (1).ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/quantum-information.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/quantum-teleportation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/superdense-coding.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Code.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Kathir"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Code.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kathir&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kathir" />
