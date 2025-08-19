@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Basics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Qiskit/Quantum mechanics" vcs="Git" />
   </component>
 </project>
