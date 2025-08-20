@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/CHSH GAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/Qiskit/Quantum Algorithms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/chsh-game (2).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/circuits.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/classical-information (1).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/classical-information.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/inner-products-and-projections.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/limitations-on-quantum-information.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/quantum-information (1).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/quantum-information.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/quantum-teleportation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Basics/superdense-coding.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/work.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +29,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Qiskit/Quantum mechanics" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kthiru-44&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kthiru-44/Quantum-Road.git&quot;,
+    &quot;accountId&quot;: &quot;96c3065c-21d2-4c1d-97e4-19a3da038839&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,6 +53,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
     &quot;Python.work.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
