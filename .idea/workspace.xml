@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Stern-Gerlach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Uncertainity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/work.py" beforeDir="false" />
@@ -53,6 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Uncertainity.executor&quot;: &quot;Run&quot;,
     &quot;Python.code.executor&quot;: &quot;Run&quot;,
     &quot;Python.work.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -71,7 +73,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
       </set>
     </attachedChunks>
   </component>
