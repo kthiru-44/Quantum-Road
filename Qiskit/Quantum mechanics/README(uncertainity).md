@@ -1,8 +1,9 @@
+
 🧠 Quantum Measurement & Uncertainty in Qiskit
 
-    This project simulates how quantum measurements behave in different bases (Z, X, Y) and visualizes the Heisenberg uncertainty principle using Qiskit and Aer simulators.
-    
-    We explore how rotating a qubit before measurement changes the observed outcomes, and how uncertainty varies with state orientation—analogous to how physical measurements in quantum systems like spin behave.
+This project simulates how quantum measurements behave in different bases (Z, X, Y) and visualizes the Heisenberg uncertainty principle using Qiskit and Aer simulators.
+
+We explore how rotating a qubit before measurement changes the observed outcomes, and how uncertainty varies with state orientation—analogous to how physical measurements in quantum systems like spin behave.
 
 
 1️⃣ Z-Basis then X-Basis Measurement
