@@ -1,5 +1,4 @@
-
-🧠 Quantum Measurement & Uncertainty in Qiskit
+🧭 Measuring Uncertainity in Quantum
 
 This project simulates how quantum measurements behave in different bases (Z, X, Y) and visualizes the Heisenberg uncertainty principle using Qiskit and Aer simulators.
 
