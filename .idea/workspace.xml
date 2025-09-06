@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Entanglement(Bell's Inequality).py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Stern-Gerlach.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Uncertainity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superposition-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superpositon-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/work.py" beforeDir="false" />
     </list>
@@ -42,6 +45,9 @@
     &quot;accountId&quot;: &quot;96c3065c-21d2-4c1d-97e4-19a3da038839&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Qiskit/Quantum mechanics/Uncertainity.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,6 +60,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Code.executor": "Run",
+    "Python.Entanglement(Bell's Inequality).executor": "Run",
     "Python.Uncertainity.executor": "Run",
     "Python.code.executor": "Run",
     "Python.work.executor": "Run",
