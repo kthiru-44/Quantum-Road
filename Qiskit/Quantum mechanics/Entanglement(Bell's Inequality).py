@@ -57,7 +57,7 @@ plot_histogram(total_counts)
 plot_histogram(counts_list)
 plt.show()
 
-# 2. Running in Qiskit-Aer
+# 2. Running in Qiskit-Aer Simulator
 
 sim = AerSimulator()
 sam_sim = BackendSamplerV2(backend=sim)
