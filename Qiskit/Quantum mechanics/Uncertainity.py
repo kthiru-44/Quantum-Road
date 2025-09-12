@@ -182,7 +182,7 @@ qr = QuantumRegister(1, "q")
 cr = ClassicalRegister(1, "c")
 qc = QuantumCircuit(qr, cr)
 
-# Rotate away from |0> along one plane, and then along a transverse direction.
+# Rotate away from |0> along one plane, and then along a transverse direction
 theta = Parameter("θ")
 qc.ry(theta, 0)
 qc.rz(np.pi / 4, 0)
