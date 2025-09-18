@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Entanglement(Bell's Inequality).py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Stern-Gerlach.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Uncertainity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superposition-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superpositon-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
@@ -29,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Qiskit/Quantum mechanics" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,22 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Entanglement(Bell's Inequality).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Uncertainity.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kathir&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Code.executor": "Run",
+    "Python.Entanglement(Bell's Inequality).executor": "Run",
+    "Python.Uncertainity.executor": "Run",
+    "Python.code.executor": "Run",
+    "Python.q1.executor": "Run",
+    "Python.work.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Kathir"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kathir" />
