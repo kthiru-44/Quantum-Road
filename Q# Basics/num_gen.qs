@@ -17,7 +17,7 @@ operation Randomnumbergenerator(max : Int) : Int {
     }
     let sample = ResultArrayAsInt(bits);
 
-    return sample > max ? Randomnumbergenerator(max) | sample ;
+    return sample > max ? Randomnumbergenerator(max) | sample ; // ? acts like if statement in Q#
 }
 
 operation GenerateRandomBit() : Result{
