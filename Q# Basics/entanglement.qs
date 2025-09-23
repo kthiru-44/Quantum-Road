@@ -1,18 +1,67 @@
-import Std.Diagnostics.*;
 
-// For First Bell State |Φ+⟩ = (|00⟩ + |11⟩) / √2
 
-operation Main() : (Result, Result) {
-    use (q1, q2) = (Qubit(), Qubit());
+import Microsoft.Quantum.Diagnostics.*;
+import Microsoft.Quantum.Intrinsic.*;
+import Microsoft.Quantum.Measurement.*;
 
-    H(q1);
-    CNOT(q1, q2);
+operation Main() : Result[] {
 
-    DumpMachine();
+    use (message, bob) = (Qubit(), Qubit());
 
-    let (m1, m2) = (M(q1), M(q2));
-    Reset(q1);
-    Reset(q2);
+    let stateInitializerBasisTuples = [
+        ("|0〉", I, PauliZ),
+        ("|1〉", X, PauliZ),
+        ("|+〉", SetToPlus, PauliX),
+        ("|-〉", SetToMinus, PauliX)
+    ];
 
-    return (m1, m2);
+    mutable results = [];
+    for (state, initializer, basis) in stateInitializerBasisTuples {
+
+        initializer(message);
+        Message($"Teleporting state {state}");
+        DumpMachine();
+
+        Teleport(message, bob);
+        Message($"Received state {state}");
+        DumpMachine();
+
+        let result = Measure([basis], [bob]);
+        set results += [result];
+        ResetAll([message, bob]);
+    }
+
+    return results;
+}
+
+operation Teleport(message : Qubit, bob : Qubit) : Unit {
+
+    use alice = Qubit();
+
+    H(alice);
+    CNOT(alice, bob);
+
+    CNOT(message, alice);
+    H(message);
+
+    if M(message) == One {
+        Z(bob);
+    }
+    if M(alice) == One {
+        X(bob);
+    }
+
+    Reset(alice);
+}
+
+/// Sets a qubit in state |0⟩ to |+⟩
+operation SetToPlus(q : Qubit) : Unit is Adj + Ctl {
+    H(q);
+}
+
+
+/// Sets a qubit in state |0⟩ to |−⟩
+operation SetToMinus(q : Qubit) : Unit is Adj + Ctl {
+    X(q);
+    H(q);
 }
