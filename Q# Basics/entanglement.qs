@@ -65,3 +65,4 @@ operation SetToMinus(q : Qubit) : Unit is Adj + Ctl {
     X(q);
     H(q);
 }
+    
