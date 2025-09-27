@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94ac6100-f1a2-4594-a571-e910098807aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Entanglement(Bell's Inequality).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Stern-Gerlach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Qiskit/Quantum mechanics/Uncertainity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quantum_Algorithms(Qiskit)/Bernstein_Vazirani.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quantum_Algorithms(Qiskit)/Deustch-Jozsa_Algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superposition-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/.ipynb_checkpoints/Superpositon-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qiskit/Quantum mechanics/work.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Bernstein_Vazirani.executor": "Run",
     "Python.Code.executor": "Run",
+    "Python.Deustch-Jozsa_Algorithm.executor": "Run",
     "Python.Entanglement(Bell's Inequality).executor": "Run",
     "Python.Uncertainity.executor": "Run",
     "Python.code.executor": "Run",
