@@ -5,7 +5,7 @@ Each implementation includes concise theoretical context, circuit explanation, a
 
 ---
 
-## || Repository Overview ||
+##  Repository Overview 
 
 | File / Folder | Description |
 |----------------|-------------|
@@ -15,7 +15,7 @@ Each implementation includes concise theoretical context, circuit explanation, a
 ---
 
 
-## || Environment Setup ||
+##  Environment Setup 
 
 ```bash
 python -m venv .venv
@@ -33,7 +33,7 @@ jupyter notebook
 
 
 
-## || References ||
+##  References 
 
 - [Qiskit Textbook](https://qiskit.org/textbook/)  
 - [IBM Quantum Lab](https://quantum-computing.ibm.com/lab)  
