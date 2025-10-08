@@ -1,0 +1,8 @@
+qiskit==0.44.0
+numpy
+matplotlib
+pandas
+jupyter
+nbformat
+nbconvert
+pytest
