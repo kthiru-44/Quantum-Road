@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="Image Oct 26, 2025, 06_18_45 PM.png" alt="Quantum-Road Banner" width="100%">
 </p>
@@ -14,10 +13,10 @@ This repository bridges **theory**, **code**, and **simulation results** — bui
 
 | Folder | Description |
 |:--------|:-------------|
-| **Basics/** | Foundational notes on quantum gates, measurement, and qubit states. |
-| **Quantum_Mechanics/** | Simulations of physical quantum systems — superposition, interference, and entanglement. |
-| **Quantum_Algorithms/** | Implementations of core algorithms: Deutsch–Jozsa, Grover, CHSH game, and Quantum Teleportation. |
-| **QSharp_Basics/** | Early explorations and comparisons using the Q# SDK. |
+| [Basics/](Basics/) | Foundational notes on quantum gates, measurement, and qubit states. |
+| [Quantum_Mechanics/](Quantum_Mechanics/) | Simulations of physical quantum systems — superposition, interference, and entanglement. |
+| [Quantum_Algorithms/](Quantum_Algorithms/) | Implementations of core algorithms: Deutsch–Jozsa, Grover, CHSH game, and Quantum Teleportation. |
+| [QSharp_Basics/](QSharp_Basics/) | Early explorations and comparisons using the Q# SDK. |
 
 ---
 
@@ -25,3 +24,4 @@ This repository bridges **theory**, **code**, and **simulation results** — bui
 
 ```bash
 pip install qiskit matplotlib jupyter numpy
+```
