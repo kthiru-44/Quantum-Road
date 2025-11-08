@@ -9,10 +9,10 @@ This section explores these three interrelated concepts in a unified way.
 
 Quantum entanglement is a uniquely quantum mechanical phenomenon where the state of a multi-qubit system **cannot** be written as a product of its individual qubit states.
 
-Formally, a two-qubit state \( |\Psi\rangle \) is **entangled** if there do not exist single-qubit states \( |\psi_1\rangle \) and \( |\psi_2\rangle \) such that:
+Formally, a two-qubit state \( |Ψ\rangle \) is **entangled** if there do not exist single-qubit states \( |\psi_1\rangle \) and \( |\psi_2\rangle \) such that:
 
 $$
-|\Psi\rangle = |\psi_1\rangle \otimes |\psi_2\rangle
+|Ψ\rangle = |\psi_1\rangle \otimes |\psi_2\rangle
 $$
 
 Entanglement enables correlations between measurement outcomes that **cannot be explained classically**.
@@ -26,9 +26,9 @@ The **Bell basis** consists of four maximally entangled two-qubit states:
 $$
 \begin{aligned}
 |\Phi^+\rangle &= \frac{1}{\sqrt{2}} (|00\rangle + |11\rangle) \\
-|\Φ^-\rangle &= \frac{1}{\sqrt{2}} (|00\rangle - |11\rangle) \\
-|\Ψ^+\rangle &= \frac{1}{\sqrt{2}} (|01\rangle + |10\rangle) \\
-|\Ψ^-\rangle &= \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)
+|Φ^-\rangle &= \frac{1}{\sqrt{2}} (|00\rangle - |11\rangle) \\
+|Ψ^+\rangle &= \frac{1}{\sqrt{2}} (|01\rangle + |10\rangle) \\
+|Ψ^-\rangle &= \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)
 \end{aligned}
 $$
 
