@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Image Oct 26, 2025, 06_18_45 PM.png" alt="Quantum-Road Banner" width="100%">
+  <img src="image.png" alt="Quantum-Road Banner" width="100%">
 </p>
 
 # 🧭 Quantum-Road
