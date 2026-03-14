@@ -2,14 +2,14 @@
   <img src="image.png" alt="Quantum-Road Banner" width="100%">
 </p>
 
-# 🧭 Quantum-Road
+#  Quantum-Road
 
 A curated collection of **quantum computing implementations and notes** using **Qiskit** and **Q#**.  
 This repository bridges **theory**, **code**, and **simulation results** — built to demonstrate both **understanding** and **reproducibility**.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 | Folder | Description |
 |:--------|:-------------|
@@ -20,7 +20,7 @@ This repository bridges **theory**, **code**, and **simulation results** — bui
 
 ---
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 ```bash
 pip install qiskit matplotlib jupyter numpy
